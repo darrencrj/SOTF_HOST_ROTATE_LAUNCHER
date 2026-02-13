@@ -51,7 +51,7 @@ This tool allows your group to rotate hosting duties freely:
 
 ---
 
-## Prerequesist
+## Prerequisite
 Download latest release [here](https://github.com/darrencrj/SOTF_HOST_ROTATE_LAUNCHER/releases)
 
 ---
