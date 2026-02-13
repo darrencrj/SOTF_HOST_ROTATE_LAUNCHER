@@ -1,7 +1,6 @@
 # Sons Of The Forest Host Rotating Launcher Generator 🌲🔄
 
-### "Want to play with friends, but the Host is offline?" 
-### "Tired of losing your inventory when you take over a save file?"
+### "Want to continue the multiplayer game, but the Host is offline?" 
 **This could be the solution.**
 
 ---
@@ -45,6 +44,10 @@ This tool allows your group to rotate hosting duties freely:
 * I'm not responsible for any missing or corrupted save files.
 * You might wanna backup all files in "\AppData\LocalLow\Endnight\SonsOfTheForest\Saves" before trying this.
 * You are responsible to check if the powershell script is doing anything funny. (Please leverage AI to check the script if you have concerns)
+
+---
+
+## Last Tested Sons Of The Forest Release Is Oct 4, 2025
 
 ---
 
