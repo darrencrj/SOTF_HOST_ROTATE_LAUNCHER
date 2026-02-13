@@ -70,3 +70,7 @@ Download latest release [here](https://github.com/darrencrj/SOTF_HOST_ROTATE_LAU
 * **Sons of the Forest** (Steam Version).
 * **Windows PowerShell 5.1+**.
 
+---
+
+## Potential Problems
+* If Steam keeps override the save file with the cloud save, you might wanna disable cloud sync for this game to resolve the problem
