@@ -2,7 +2,7 @@
 
 ### "Want to play with friends, but the Host is offline?" 
 ### "Tired of losing your inventory when you take over a save file?"
-**This is the solution.**
+**This could be the solution.**
 
 ---
 
@@ -40,6 +40,13 @@ This tool allows your group to rotate hosting duties freely:
 
 ---
 
+## ⚠️ Warning ⚠️
+* This is just my personal playground project.
+* I'm not responsible for any missing or corrupted save files.
+* You might wanna backup all files in "\AppData\LocalLow\Endnight\SonsOfTheForest\Saves" before trying this.
+
+---
+
 ## 🚀 Getting Started
 1. **Initial Setup:** Download the latest Release and Run `Setup-SOTF-DriveSync-{version}.ps1`.
 2. **Linking:** Point the generator to your shared Google Drive folder. (The script will automatically "warm up" the drive to find hidden ID paths).
@@ -53,3 +60,4 @@ This tool allows your group to rotate hosting duties freely:
 * **Google Drive for Desktop** (Must be logged in and running).
 * **Sons of the Forest** (Steam Version).
 * **Windows PowerShell 5.1+**.
+
