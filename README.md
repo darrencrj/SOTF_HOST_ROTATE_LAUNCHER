@@ -48,8 +48,13 @@ This tool allows your group to rotate hosting duties freely:
 
 ---
 
+## Prerequesist
+Download latest release from https://github.com/darrencrj/SOTF_HOST_ROTATE_LAUNCHER/tree/main/release
+
+---
+
 ## 🚀 Getting Started
-1. **Initial Setup:** Download the latest Release and Run `Setup-SOTF-DriveSync-{version}.ps1`.
+1. **Initial Setup:** Run `Setup-SOTF-DriveSync-{version}.ps1`.
 2. **Linking:** Point the generator to your shared Google Drive folder. (The script will automatically "warm up" the drive to find hidden ID paths).
 3. **The Launcher:** The script generates `SOTF_Host_Launcher.bat`. Move this to your desktop.
 4. **Playing:** Always launch the game via the `.bat` file when you are the one hosting.
