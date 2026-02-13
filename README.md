@@ -44,6 +44,7 @@ This tool allows your group to rotate hosting duties freely:
 * This is just my personal playground project.
 * I'm not responsible for any missing or corrupted save files.
 * You might wanna backup all files in "\AppData\LocalLow\Endnight\SonsOfTheForest\Saves" before trying this.
+* You are responsible to check if the powershell script is doing anything funny. (Please leverage AI to check the script if you have concerns)
 
 ---
 
