@@ -44,6 +44,7 @@ This tool allows your group to rotate hosting duties freely:
 * I'm not responsible for any missing or corrupted save files.
 * You might wanna backup all files in "\AppData\LocalLow\Endnight\SonsOfTheForest\Saves" before trying this.
 * You are responsible to check if the powershell script is doing anything funny. (Please leverage AI to check the script if you have concerns)
+* **At this point of the implementation, check to see if your friend is playing the game before running with the `SOTF_Host_Launcher.bat` file**
 
 ---
 
@@ -60,7 +61,7 @@ Download latest release [here](https://github.com/darrencrj/SOTF_HOST_ROTATE_LAU
 1. **Initial Setup:** Run `Setup-SOTF-DriveSync-{version}.ps1`.
 2. **Linking:** Point the generator to your shared Google Drive folder. (The script will automatically "warm up" the drive to find hidden ID paths).
 3. **The Launcher:** The script generates `SOTF_Host_Launcher.bat`. Move this to your desktop.
-4. **Playing:** Always launch the game via the `.bat` file when you are the one hosting.
+4. **Playing (Host ONLY):** Always launch the game via the `.bat` file when you are the one hosting.
 5. **Stability Check:** After you exit the game, the launcher waits for **10 seconds of disk silence** to ensure the save is fully written before it touches your inventory or starts the cloud upload.
 
 ---
