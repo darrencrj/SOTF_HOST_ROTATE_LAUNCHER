@@ -52,6 +52,16 @@ function Ask-DriveFolder {
         Write-Host "Waking up Google Drive..." -ForegroundColor Gray
         Get-ChildItem $myDrive -Filter "*.lnk" | ForEach-Object { Resolve-GooglePath -Path $_.FullName | Out-Null }
     }
+	
+	Write-Host "====================================================================================="
+	Write-Host "If it is a shared folder and you are not the owner, follow the steps below" -ForegroundColor Yellow
+    Write-Host "  1. Head over to [https://drive.google.com/drive/shared-with-me]" -ForegroundColor Yellow
+    Write-Host "  2. Right click on the shared folder -> Organize -> Add shortcut" -ForegroundColor Yellow
+    Write-Host "  3. Select All locations -> My Drive" -ForegroundColor Yellow
+    Write-Host "  4. Click Add" -ForegroundColor Yellow
+	Write-Host "  5. When the folder is sync to your computer, it will appear in G Drive[.shortcut-targets-by-id]. Dig through it to find your shared folder" -ForegroundColor Yellow
+	Write-Host "====================================================================================="
+	
     Write-Host "`nOpening folder selection..." -ForegroundColor Gray
     $shell = New-Object -ComObject Shell.Application
     $picker = $shell.BrowseForFolder(0, "Select SOTF Cloud Folder", 1+64+16, "G:\")
